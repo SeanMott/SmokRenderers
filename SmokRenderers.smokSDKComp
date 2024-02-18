@@ -1,0 +1,20 @@
+name: "SmokRenderers"
+SDKPath: "C:\\\\SmokSDK\\\\SmokRenderers"
+SDKVer: "1.0.0"
+includeDepCount: 7
+includeDeps:
+  - "C:\\\\SmokSDK\\\\Libraries\\\\BTD-Libs\\\\glm"
+  - "C:\\\\SmokSDK\\\\Libraries\\\\BTD-Libs\\\\glfw\\\\include"
+  - "C:\\\\VulkanSDK\\\\1.3.275.0\\\\Include"
+  - "C:\\\\SmokSDK\\\\Libraries\\\\SmokGraphics-Lib\\\\VulkanMemoryAllocator\\\\include"
+  - "C:\\\\SmokSDK\\\\BTDSTD\\\\BTDSTD\\\\includes"
+  - "C:\\\\SmokSDK\\\\BTDSTD\\\\BTDSTD_C\\\\includes"
+  - "C:\\\\SmokSDK\\\\SmokGraphics\\\\includes"
+linkDepCount: 0
+linkDeps:
+  []
+premakeDepCount: 3
+premakeDeps:
+  - "C:\\\\SmokSDK\\\\SmokWindow"
+  - "C:\\\\SmokSDK\\\\SmokMesh"
+  - "C:\\\\SmokSDK\\\\SmokTexture"

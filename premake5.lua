@@ -1,6 +1,6 @@
-include "C:\\GameDev\\SmokLibraries\\Engine\\SmokWindow"
-include "C:\\GameDev\\SmokLibraries\\Engine\\SmokMesh"
-include "C:\\GameDev\\SmokLibraries\\Engine\\SmokTexture"
+include "C:\\SmokSDK\\SmokWindow"
+include "C:\\SmokSDK\\SmokMesh"
+include "C:\\SmokSDK\\SmokTexture"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
@@ -23,21 +23,21 @@ includedirs
 {
     "includes",
 
-    "C:\\GameDev\\Libraries\\yaml-cpp\\include",
-    "C:\\GameDev\\Libraries\\glm",
-    "C:\\GameDev\\Libraries\\glfw\\include",
-    "C:\\GameDev\\Libraries\\STB_Image",
+    "C:\\SmokSDK\\Libraries\\BTD-Libs\\yaml-cpp\\include",
+    "C:\\SmokSDK\\Libraries\\BTD-Libs\\glm",
+    "C:\\SmokSDK\\Libraries\\BTD-Libs\\glfw\\include",
+    "C:\\SmokSDK\\Libraries\\SmokTexture-Libs\\STB_Image",
     
-    "C:\\VulkanSDK\\1.3.239.0\\Include",
-    "C:\\GameDev\\Libraries\\VulkanMemoryAllocator\\include",
+    "C:\\VulkanSDK\\1.3.275.0\\Include",
+    "C:\\SmokSDK\\Libraries\\VulkanMemoryAllocator\\include",
 
-    "C:\\GameDev\\BTDSTD/includes",
-    "C:\\GameDev\\BTDSTD_C/includes",
+    "C:\\SmokSDK\\BTDSTD\\BTDSTD\\includes",
+    "C:\\SmokSDK\\BTDSTD\\BTDSTD_C\\includes",
     
-    "C:\\GameDev\\SmokLibraries\\Engine\\SmokGraphics\\includes",
-    "C:\\GameDev\\SmokLibraries\\Engine\\SmokWindow\\includes",
-    "C:\\GameDev\\SmokLibraries\\Engine\\SmokMesh\\includes",
-    "C:\\GameDev\\SmokLibraries\\Engine\\SmokTexture\\includes"
+    "C:\\SmokSDK\\SmokGraphics\\includes",
+    "C:\\SmokSDK\\SmokWindow\\includes",
+    "C:\\SmokSDK\\SmokMesh\\includes",
+    "C:\\SmokSDK\\SmokTexture\\includes"
 }
 
 links
